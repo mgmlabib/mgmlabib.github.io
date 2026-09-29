@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic and engineering portfolio of Golam Mashrafi Labib | Industrial & Production Engineering student at AUST.">
+  <title>Golam Mashrafi Labib | Industrial & Production Engineering</title>
+
+  <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono ($0 Free) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo">GML<span>.</span></a>
+      <button class="mobile-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+        ☰ Menu
+      </button>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#research" class="nav-link">Research Focus</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 01: Hero -->
+    <section class="section" id="hero" style="padding-top: calc(var(--header-height) + 2rem);">
+      <div class="container hero-wrapper">
+        <div class="hero-content">
+          <span class="section-tag">AUST (IPE) // Academic Content Developer</span>
+          <h1 id="hero-name">Golam Mashrafi Labib</h1>
+          <div class="hero-subtitle" id="hero-title">Industrial & Production Engineering Student</div>
+          <p class="hero-bio" id="hero-bio">Loading bio...</p>
+          
+          <div class="hero-actions">
+            <a href="assets/resume.pdf" class="btn btn-primary" id="resume-btn" target="_blank">View Resume (PDF)</a>
+            <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <span id="hero-location">📍 Dhaka, Bangladesh</span>
+            <span>⚙️ Ergonomics &amp; OHS Focus</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img id="profile-img" class="portrait-img" alt="Golam Mashrafi Labib portrait">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 02: About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 01. Profile</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-desc" id="about-heading" style="color: var(--text-main); font-weight: 600;"></div>
+        </div>
+        <div id="about-body" style="max-width: 800px; font-size: 1.05rem;"></div>
+      </div>
+    </section>
+
+    <!-- Section 03: Research Interests -->
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 02. Academic Directions</span>
+          <h2 class="section-title">Research &amp; Core Interests</h2>
+          <p class="section-desc">Key technical disciplines and domains where I am actively developing research perspectives and academic projects.</p>
+        </div>
+        <div class="grid-3" id="research-grid"></div>
+      </div>
+    </section>
+
+    <!-- Section 04: Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 03. Applied Engineering</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Selected academic and practical engineering solutions addressing ergonomic design, queuing dynamics, and operational bottlenecks.</p>
+        </div>
+        <div class="grid-2" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Section 05: Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 04. Professional Background</span>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+        <div class="timeline" id="experience-timeline"></div>
+      </div>
+    </section>
+
+    <!-- Section 06: Education & Coursework -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 05. Academic Qualifications</span>
+          <h2 class="section-title">Education &amp; Key Coursework</h2>
+        </div>
+        <div class="timeline" id="education-timeline" style="margin-bottom: 3.5rem;"></div>
+
+        <h3 style="font-size: 1.3rem; margin-bottom: 1.5rem;">Selected Engineering Coursework</h3>
+        <div class="grid-3" id="coursework-grid"></div>
+      </div>
+    </section>
+
+    <!-- Section 07: Skills Matrix -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 06. Competencies</span>
+          <h2 class="section-title">Skills &amp; Technical Tools</h2>
+        </div>
+        <div id="skills-matrix"></div>
+      </div>
+    </section>
+
+    <!-- Section 08: Content & Academic Work -->
+    <section class="section" id="content-work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 07. Educational Materials</span>
+          <h2 class="section-title">Academic Content &amp; Media</h2>
+          <p class="section-desc">Sample lecture designs, slide frameworks, and instructional assets developed for academic platforms.</p>
+        </div>
+        <div class="grid-2" id="academic-content-grid"></div>
+      </div>
+    </section>
+
+    <!-- Section 09: Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 08. Inquiries</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-desc">Open for discussions regarding research initiatives, academic content development, or industrial engineering projects.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 600px;">
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#" class="btn btn-primary" id="contact-mailto">Send Direct Email</a>
+            <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+          </div>
+          <div>
+            <div style="font-size: 0.85rem; font-family: var(--font-family-mono); color: var(--text-dim); margin-bottom: 0.75rem;">CONNECT ON PROFESSIONAL PLATFORMS:</div>
+            <div id="social-links-row" style="display: flex; gap: 0.75rem; flex-wrap: wrap;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        © <span id="copyright-year"></span> <strong>Golam Mashrafi Labib</strong> | Industrial &amp; Production Engineering, AUST.
+      </div>
+      <div>
+        <a href="#hero" style="font-family: var(--font-family-mono); font-size: 0.8rem; color: var(--text-muted);">↑ Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: content.js loads first so render.js has immediate access -->
+  <script src="js/content.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

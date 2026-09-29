@@ -1,0 +1,45 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM VARIABLES
+   Edit this file to customize the global look, feel, and colors of the site.
+   ========================================================================== */
+
+:root {
+  /* Core Color Palette: Industrial Precision */
+  --bg-primary: #0b0f17;          /* Deepest technical slate/midnight */
+  --bg-secondary: #111827;        /* Section background variation */
+  --bg-card: #162032;             /* Card surface */
+  --bg-card-hover: #1c293f;       /* Interactive card hover */
+  --bg-glass: rgba(17, 24, 39, 0.85); /* Semi-transparent header */
+  
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.15);
+  --border-focus: #f59e0b;
+  
+  /* Accents */
+  --accent-primary: #f59e0b;      /* Precision Amber / Industrial Safety Orange */
+  --accent-primary-hover: #d97706;
+  --accent-subtle: rgba(245, 158, 11, 0.12);
+  --accent-glow: rgba(245, 158, 11, 0.25);
+  
+  /* Typography Colors */
+  --text-main: #f8fafc;           /* High contrast slate-white */
+  --text-muted: #94a3b8;          /* Technical metadata / secondary description */
+  --text-dim: #64748b;            /* Structural captions & labels */
+  
+  /* Typography Scale */
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-display: 'Space Grotesk', var(--font-family-sans);
+  --font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  /* Layout Dimensions */
+  --max-width: 1140px;
+  --header-height: 72px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-medium: 0.28s ease;
+}
