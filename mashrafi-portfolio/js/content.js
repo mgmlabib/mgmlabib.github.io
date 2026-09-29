@@ -13,7 +13,7 @@ const portfolioData = {
     location: "Dhaka, Bangladesh",
     email: "labib.ipe.aust@gmail.com", // [PLACEHOLDER]: Replace with your official/preferred email
     resumeUrl: "assets/resume.pdf",
-    portraitUrl: "assets/images/profile.jpg",
+    portraitUrl: "assets/images/profile.JPG",
     bioShort: "Undergraduate student in Industrial & Production Engineering at AUST, combining engineering principles, ergonomic focus, and academic content development to design efficient systems and clear learning experiences."
   },
 
