@@ -72,7 +72,7 @@ const portfolioData = {
       methodology: "Conducted functional tree decomposition, determined ergonomic handle dimensioning based on anthropometric data, performed material selection, and analyzed cost structures.",
       tools: ["Ergonomic Analysis", "Anthropometric Sizing", "Material Selection", "Cost Modeling"],
       contribution: "Functional breakdown, ergonomic handle parameterization, and presentation deck design.",
-      reportUrl: "assets/resume.pdf", // [PLACEHOLDER]: Replace with link to your actual project PDF/Drive link
+      reportUrl: "assets/pdreport.pdf", // [PLACEHOLDER]: Replace with link to your actual project PDF/Drive link
       presentationUrl: "#" // [PLACEHOLDER]: Link to slides or Canva presentation if desired
     },
     {
