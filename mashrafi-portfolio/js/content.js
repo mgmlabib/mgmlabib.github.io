@@ -94,7 +94,7 @@ const portfolioData = {
     {
       role: "Research Associate & Coordinator — Math & ICT Team",
       organization: "Utkorsho / Onnorokom EdTech",
-      period: "2024 – Present", // [PLACEHOLDER]: Confirm or adjust period
+      period: "2023 – Present", // [PLACEHOLDER]: Confirm or adjust period
       location: "Dhaka, Bangladesh",
       description: "Leading content structuring, quality assurance, and multimedia asset production for educational curricula.",
       responsibilities: [
@@ -113,8 +113,24 @@ const portfolioData = {
       degree: "Bachelor of Science in Industrial & Production Engineering (IPE)",
       period: "Enrolled 2023 – Present", // [PLACEHOLDER]: Adjust dates as appropriate
       location: "Dhaka, Bangladesh",
-      cgpa: "Available upon request", // [PLACEHOLDER]: Add your CGPA later if desired
+      cgpa: "N/A", // [PLACEHOLDER]: Add your CGPA later if desired
       details: "Focusing on operations research, manufacturing processes, ergonomic engineering, lean systems, and quality control."
+    },
+     {
+      institution: "Government Science College",
+      degree: "Higher Secondary Certificate (HSC) - Science",
+      period: "2020 - 2022", // [PLACEHOLDER]: Adjust dates as appropriate
+      location: "Dhaka, Bangladesh",
+      gpa: "5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
+      details: "Higher secondary curriculum with emphasis on Physics, Chemistry, and Higher Mathematics."
+    },
+     {
+      institution: "Ideal School and College",
+      degree: "Secondary School Certificate (SSC) - Science",
+      period: "Passing Year: 2020", // [PLACEHOLDER]: Adjust dates as appropriate
+      location: "Dhaka, Bangladesh",
+      gpa: "5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
+      details: "Completed secondary education focusing on foundational general sciences and mathematics."
     }
   ],
 
