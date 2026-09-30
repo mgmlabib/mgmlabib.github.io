@@ -84,7 +84,7 @@ const portfolioData = {
       methodology: "Gathered empirical arrival and service duration data, structured queuing models (M/M/s calculations), calculated utilization rates, and formulated bottleneck mitigation recommendations.",
       tools: ["Queuing Theory", "Data Collection", "Statistical Analysis", "Operations Research"],
       contribution: "Data acquisition, service rate calculations, queuing model analysis, and recommendation reporting.",
-      reportUrl: "#", // [PLACEHOLDER]: Add link when ready
+      reportUrl: "assets/orproject.pdf", // [PLACEHOLDER]: Add link when ready
       presentationUrl: "#"
     }
   ],
