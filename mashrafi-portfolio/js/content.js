@@ -139,7 +139,8 @@ const portfolioData = {
     {
       category: "Industrial Engineering",
       courses: [
-        { name: "Ergonomics & Safety Engineering", note: "Anthropometry, work environment design, OSHA guidelines" },
+        { name: "Ergonomics, Productivity & Safety Engineering", note: "Anthropometry, work environment design, OSHA guidelines" },
+        { name: "Product Design and Development", note: "Market Analysis, House of Quality, Cost Analysis" },
         { name: "Operations Research", note: "Linear programming, queuing theory, network models" },
         { name: "Production Planning & Control", note: "Forecasting, inventory models, capacity scheduling" },
         { name: "Quality Management & Control", note: "SPC charts, acceptance sampling, ISO standards" }
@@ -149,7 +150,7 @@ const portfolioData = {
       category: "Manufacturing & Processes",
       courses: [
         { name: "Manufacturing Processes", note: "Forming, machining, casting, joining techniques" },
-        { name: "CAM & Robotics", note: "Automation fundamentals, CNC tooling logic" },
+        { name: "Textile Technology and Manufacturing", note: "Yarn, Fiber, Blowroom count" },
         { name: "Material Handling & Maintenance", note: "Facility layout optimization, preventive maintenance" }
       ]
     },
