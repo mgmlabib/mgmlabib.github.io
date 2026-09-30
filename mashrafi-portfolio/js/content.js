@@ -11,7 +11,7 @@ const portfolioData = {
     title: "Industrial & Production Engineering Student | Academic Content Developer",
     affiliation: "Ahsanullah University of Science and Technology (AUST)",
     location: "Dhaka, Bangladesh",
-    email: "labib.ipe.aust@gmail.com", // [PLACEHOLDER]: Replace with your official/preferred email
+    email: "gmlabib2003@gmail.com", // [PLACEHOLDER]: Replace with your official/preferred email
     resumeUrl: "assets/resume.pdf",
     portraitUrl: "assets/images/profile.JPG",
     bioShort: "Undergraduate student in Industrial & Production Engineering at AUST, combining engineering principles, ergonomic focus, and academic content development to design efficient systems and clear learning experiences."
@@ -121,7 +121,7 @@ const portfolioData = {
       degree: "Higher Secondary Certificate (HSC) - Science",
       period: "2020 - 2022", // [PLACEHOLDER]: Adjust dates as appropriate
       location: "Dhaka, Bangladesh",
-      gpa: "5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
+      cgpa: "GPA: 5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
       details: "Higher secondary curriculum with emphasis on Physics, Chemistry, and Higher Mathematics."
     },
      {
@@ -129,7 +129,7 @@ const portfolioData = {
       degree: "Secondary School Certificate (SSC) - Science",
       period: "Passing Year: 2020", // [PLACEHOLDER]: Adjust dates as appropriate
       location: "Dhaka, Bangladesh",
-      gpa: "5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
+      cgpa: "GPA: 5.00 out of 5.00", // [PLACEHOLDER]: Add your CGPA later if desired
       details: "Completed secondary education focusing on foundational general sciences and mathematics."
     }
   ],
@@ -213,9 +213,9 @@ const portfolioData = {
 
   // 10. Social Media & Professional Channels
   social: {
-    linkedin: "https://linkedin.com", // [PLACEHOLDER]: Replace with your LinkedIn profile
+    linkedin: "https://linkedin.com/in/gmlabib", // [PLACEHOLDER]: Replace with your LinkedIn profile
     github: "https://github.com",     // [PLACEHOLDER]: Replace with your GitHub profile
-    youtube: "https://youtube.com",   // [PLACEHOLDER]: Replace with your YouTube or channel link
-    facebook: "https://facebook.com"  // [PLACEHOLDER]: Replace with your Facebook profile
+    youtube: "https://youtube.com/@mgmlabib",   // [PLACEHOLDER]: Replace with your YouTube or channel link
+    facebook: "https://facebook.com/mgmlabib"  // [PLACEHOLDER]: Replace with your Facebook profile
   }
 };
